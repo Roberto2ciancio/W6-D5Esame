@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>shop Weapon</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-secondary d-flex flex-column min-vh-100">
+    <header>
+      <nav
+        class="navbar bg-dark border-bottom border-body navbar-expand-lg"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./shop.html">Shop</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./backoffice.html">Backoffice</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1">
+      <h1 class="text-center">Weapon Shop</h1>
+      <h2 class="text-center">
+        non ci prendiamo responsabilità del uso improprio di armi da fuoco/armi
+        bianche
+      </h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-12 col-lg-6 col-md-8">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top"
+                alt="weapon attention"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title" id="name"></h5>
+                <p class="card-text" id="description"></p>
+                <p class="card-text" id="brand"></p>
+                <p class="card-text" id="imageUrl"></p>
+                <p class="card-text" id="price"></p>
+                <div class="text-center">
+                  <button onclick="editWeapon()" class="btn btn-warning">
+                    Modifica evento
+                  </button>
+                  <button onclick="deleteWeapon()" class="btn btn-danger">
+                    Elimina evento
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-secondary text-center py-3">
+      <p class="m-0">BLACK MARKET- <span id="year"></span></p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./details.js"></script>
+  </body>
+</html>

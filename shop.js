@@ -44,6 +44,7 @@ const getEvents = function () {
                   <p class="card-text">${weapon.description}</p>
                   <p class="card-text">Brand: ${weapon.brand}</p>
                   <p class="card-text">Prezzo: ${weapon.price}€</p>
+                   <a href="./details.html?id=${weapon._id}" class="btn btn-primary">Vai ai dettagli</a>
                 </div>
               </div>
             </div>
